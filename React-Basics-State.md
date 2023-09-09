@@ -404,7 +404,7 @@ so remember for quick logic you can use,
 
 ```
 
-## <im>If pseudo els bracket is not included you get mapping error.
+## <im>If pseudo else bracket is not included you get mapping error.
 
 The below one is for class name styling.One Js Mode and Template literal js mode.
 
@@ -595,3 +595,12 @@ function handleReset() {
 
 <button onClick={handleReset}>Reset</button>;
 ```
+
+## <qs> What i learnt with faraway app is that
+
+1. List Sate should be in parent component.
+2. Form state should in form component itself where you can do inverse data flow by calling the additem function inside submit function.
+   3.OnSubmit i.e with handle submit will capture your all pieces of state which you can transfer to the parent component using additem function call.
+
+---
+
